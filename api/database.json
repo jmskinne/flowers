@@ -1,0 +1,90 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "commonName": "Rose"
+        },
+        {
+            "id": 2,
+            "commonName": "Lily"
+        },
+        {
+            "id": 3,
+            "commonName": "Petunia"
+        },
+        {
+            "id": 4,
+            "commonName": "Hydrangea"
+        },
+        {
+            "id": 5,
+            "commonName": "Sunflower"
+        }
+    ],
+    "nurseries" : [
+        {
+            "id" : 1,
+            "name": "Grow Nicely Nursing"
+        },
+        {
+            "id" : 2,
+            "name": "Sally's Nursery"
+        },
+        {
+            "id" : 3,
+            "name": "Big Orange Flowers"
+        },
+        {
+            "id" : 4,
+            "name": "Best Flower Nursery Ever"
+        },
+        {
+            "id" : 5,
+            "name": "Mostly Dead Flowers"
+        }
+        
+    ],
+    "retailers" : [
+        {
+            "id" : 1,
+            "name": "Jan's Flowers Shop",
+            "distributorId": 2
+        },
+        {
+            "id" : 2,
+            "name": "Bob's Flower Depot",
+            "distributorId": 1
+        },
+        {
+            "id" : 3,
+            "name": "We Sell Flowers Shop",
+            "distributorId": 3
+        },
+        {
+            "id" : 4,
+            "name": "Flower Shop, Inc.",
+            "distributorId": 3
+        },
+        {
+            "id" : 5,
+            "name": "Pied Piper Shop",
+            "distributorId": 2
+        }
+
+    ],
+    "distributors" : [
+        {
+            "id" : 1,
+            "name" : "Wholesale Flower Distributor"
+        },
+        {
+            "id" : 2,
+            "name" : "Our Flowers are the Best Distributor"
+        },
+        {
+            "id" : 3,
+            "name" : "We Have Meh Flowers Distributor"
+        }
+    ]
+
+}
