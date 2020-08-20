@@ -1,4 +1,5 @@
 import {getFlowers, useFlowers} from "./FlowerProvider.js"
+import {FlowerHTMLConv} from "./FlowerHTML.js"
 
 const contentTarget = document.querySelector(".flowers")
 
@@ -16,9 +17,15 @@ export const FlowerList = () => {
 }
 
 const render = () => {
-    contentTarget.innerHTML = flowers.map(
-        flower => {
+    let flowerHTML = ""
+    flowers.forEach(flower => {
+        flowerHTML += FlowerHTMLConv(flower)
+    })
+    contentTarget.innerHTML = `
+    <article class="flowers">
+        ${flowerHTML}
+    </article>
+    `
             
-        }
-    )
+        
 }

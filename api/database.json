@@ -19,6 +19,26 @@
         {
             "id": 5,
             "commonName": "Sunflower"
+        },
+        {
+            "id": 6,
+            "commonName": "Prince's Feather"
+        },
+        {
+            "id": 7,
+            "commonName": "Daylily"
+        },
+        {
+            "id": 8,
+            "commonName": "Milkweed"
+        },
+        {
+            "id": 9,
+            "commonName": "Daisy"
+        },
+        {
+            "id": 10,
+            "commonName": "Lilac"
         }
     ],
     "nurseries" : [
